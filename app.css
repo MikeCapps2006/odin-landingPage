@@ -1,5 +1,14 @@
 body {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.header-logo {
+    margin: auto 0;
 }
 
 #headingPhoto {
@@ -10,4 +19,22 @@ body {
 .info-card img {
     height: 200px;
     width: 200px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.header li {
+    list-style: none;
+}
+
+.header li a {
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    margin-left: auto;
 }
